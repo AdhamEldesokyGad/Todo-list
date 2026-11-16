@@ -40,7 +40,6 @@ myInput.addEventListener("keyup", function (event) {
       updateActiveCount();
     });
 
-    // اكتمال مهمة جديدة
     myNewTask.addEventListener("click", function () {
       myNewTask.classList.toggle("completed");
       updateActiveCount(); 
